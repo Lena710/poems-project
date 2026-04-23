@@ -1,0 +1,59 @@
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+
+.input {
+    width: 75%;
+    padding: 7px;
+    font-size: 15px;
+    border: 3px solid rgba(200, 152, 32, 0.28);
+    border-radius: 10px;
+    background: rgba(221, 215, 201, 0.28);
+}
+
+.submit {
+    width: 20%;
+    padding: 7px;
+    font-size: 15px;
+    border: 3px solid rgba(200, 152, 32, 0.28);
+    border-radius: 10px;
+    margin-left: 10px;
+    background: rgba(221, 215, 201, 0.28);
+}
+
+body {
+    background: rgba(255, 221, 136, 0.28);
+}
+
+form {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(76, 56, 5, 0.28);
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-left: 7px solid rgba(76, 56, 5, 0.28);
+    padding: 20px 5px;
+    background: rgba(211, 198, 164, 0.28);
+    font-style: italic;
+    border-radius: 10px;
+}
