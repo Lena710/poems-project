@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
 <div class="container">
@@ -12,12 +13,12 @@
         <h1>AI French Poem Generator</h1>
         </AI></header>
     <main>
-        <form>
+        <form id="poem-form">
             <input type="text" placeholder="Enter the topic" required/ class="input">
             <input type="submit" class="submit"/>
         </form>
 
-        <p>Poem will <br/>be here</p>
+        <p id="poem-element"></p>
 
 
     </main>
