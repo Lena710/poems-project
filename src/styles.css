@@ -56,4 +56,5 @@ p {
     background: rgba(211, 198, 164, 0.28);
     font-style: italic;
     border-radius: 10px;
+    line-height: 2;
 }
