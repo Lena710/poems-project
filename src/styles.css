@@ -31,12 +31,19 @@ body {
 
 form {
     display: flex;
+    margin-bottom: 15px;
+}
+
+small {
+    
+    opacity: 0.6;
 }
 
 footer {
     text-align: center;
     font-size: 14px;
     color: rgba(76, 56, 5, 0.28);
+    margin-top: 30px;
 }
 
 a {
@@ -57,4 +64,18 @@ p {
     font-style: italic;
     border-radius: 10px;
     line-height: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+.blink {
+  animation: blinker 1.5s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
